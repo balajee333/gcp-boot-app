@@ -13,7 +13,7 @@ public class EntryController {
 	
 	@GetMapping("/user")
 	public ResponseEntity<User> getUser() {
-		
+		//user entity 
 		User user = new User();
 		user.setFirstName("Sunil");
 		user.setLastName("Kumar");
